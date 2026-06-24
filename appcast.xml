@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>keepMyWindows</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Wed, 24 Jun 2026 12:38:57 +0200</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <enclosure url="https://keepmywindows.delcedo.com/keepMyWindows_v1.0_b27.zip" length="3297081" type="application/octet-stream" sparkle:edSignature="UD0EGDaY4Fni250MYJbbx1AVvRHmPw5+Yrg2sf7zLwMMZbufCkFHeOioTAPWfi31uuX+6NAyjwZ01oUlJrvZAA=="/>
+        </item>
+    </channel>
+</rss>
