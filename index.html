@@ -474,7 +474,12 @@
                     const version = enclosure?.getAttribute("sparkle:shortVersionString") || enclosure?.getAttribute("sparkle:version") || "1.0";
                     
                     if (url) {
-                        document.getElementById('download-btn').setAttribute('href', url);
+                        let finalUrl = url;
+                        // Si le site est visité via GitHub Pages brut, ré-écrire le lien pour éviter l'erreur 404 sur le CNAME non configuré
+                        if (window.location.hostname.endsWith('github.io')) {
+                            finalUrl = url.replace('https://kmw.delcedo.com', window.location.origin + window.location.pathname.replace(/\/$/, ""));
+                        }
+                        document.getElementById('download-btn').setAttribute('href', finalUrl);
                     }
                     
                     document.getElementById('version-text').innerText = "Dernière version stable : v" + version + " (via Sparkle)";
