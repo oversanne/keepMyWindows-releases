@@ -4,6 +4,17 @@
         <title>keepMyWindows</title>
         <item>
             <title>1.0</title>
+            <pubDate>Wed, 24 Jun 2026 12:41:52 +0200</pubDate>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <enclosure url="https://kmw.delcedo.com/keepMyWindows_v1.0_b28.zip" length="3297091" type="application/octet-stream" sparkle:edSignature="u4BNMfGHol0qG7Nab10O2G3VNkXKKr51YU6+ZVvh/Rt19Bx6NdDHnKNSKmjoZTjf7vUEHcuONU+nfQztdOZtCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://kmw.delcedo.com/keepMyWindows28-27.delta" sparkle:deltaFrom="27" length="11430" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="26hLqjJpepKjJ0PIADRB/DO+TSlYbWC3HYi1rwF7mw6v8WeoHOeq28FpEW2lkahh8Sb3MYGn5DGbIEOrjVmCBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Wed, 24 Jun 2026 12:38:57 +0200</pubDate>
             <sparkle:version>27</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
